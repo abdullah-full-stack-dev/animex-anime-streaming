@@ -27,7 +27,7 @@ export const NewsLetter = () => {
 
         try {
             setLoading(true)
-            const response = await axios.post("http://localhost:5000/api/auth/subscribe-us", newsData);
+            const response = await axios.post("https://animex-discovery-platform.onrender.com/api/auth/subscribe-us", newsData);
 
             if (response.data.success === true) {
                 toast.success("Subscribed successfully!")

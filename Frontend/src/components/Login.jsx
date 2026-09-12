@@ -40,7 +40,7 @@ export const Login = ({ form, showForm }) => {
 
         try {
             setLoading(true)
-            const response = await axios.post("http://localhost:5000/api/auth/register", signUpData);
+            const response = await axios.post("https://animex-discovery-platform.onrender.com/api/auth/register", signUpData);
 
             if (response.data.success === false) {
                 return toast.error("User already exists!")
@@ -84,7 +84,7 @@ export const Login = ({ form, showForm }) => {
         try {
             setLoading(true)
 
-            const response = await axios.post("http://localhost:5000/api/auth/login", loginData);
+            const response = await axios.post("https://animex-discovery-platform.onrender.com/api/auth/login", loginData);
 
             if (response.data.success === false) {
                 return toast.error("Invalid email or password!")

@@ -125,7 +125,7 @@ const forgotPassword = async (req, res) => {
 
         await user.save();
 
-        const resetUrl = `http://localhost:5173/reset-password/${resetToken}`
+        const resetUrl = `https://animex-discovery-platform.vercel.app/reset-password/${resetToken}`
 
         // Sending Mail
 

@@ -16,7 +16,7 @@ const ResetPassword = ({ showForm }) => {
     const [message, setMessage] = useState("");
     const [error, setError] = useState("");
 
-    const backendUrl = "http://localhost:5000";
+    const backendUrl = "https://animex-discovery-platform.onrender.com";
 
     const handleSubmit = async (e) => {
 

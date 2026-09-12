@@ -35,7 +35,7 @@ export const Contact = () => {
 
         try {
             setLoading(true)
-            const response = await axios.post("http://localhost:5000/api/auth/contact-us", contactData);
+            const response = await axios.post("https://animex-discovery-platform.onrender.com/api/auth/contact-us", contactData);
 
             if (response.data.success === true) {
                 toast.success("Your enquiry has been submitted successfully!")
