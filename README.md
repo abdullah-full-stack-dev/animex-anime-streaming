@@ -155,6 +155,9 @@ MAIL_FROM_NAME=your_name
 ### Genre Page
 ![Genre](Frontend/src/assets/screenshots/genre.PNG)
 
+### Anime Detail Page
+![Anime detail](Frontend/src/assets/screenshots/anime_detail.PNG)
+
 ### Wishlist Page
 ![Wishlist](Frontend/src/assets/screenshots/wishlist.PNG)
 
