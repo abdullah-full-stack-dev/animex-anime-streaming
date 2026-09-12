@@ -1,4 +1,4 @@
-# ANIMEX — Anime Discovery Platform
+# ANIMEX - Anime Discovery Platform
 
 ANIMEX is a modern, responsive anime discovery platform built with React and Node.js. It allows users to explore anime, search for titles, browse genres, view detailed anime information, discover related anime, and save their favorite anime to a wishlist.
 The platform uses the Kitsu API to fetch anime data dynamically and provides a clean, futuristic interface designed for anime fans.
