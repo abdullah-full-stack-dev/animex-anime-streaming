@@ -1,0 +1,126 @@
+.TopAndLatest-section {
+    padding: 100px 30px 30px;
+}
+
+.TopAndLatest-section .TopAndLatest-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.TopAndLatest-section .anime-card2 {
+    background: #161616;
+    width: -webkit-fill-available;
+    padding: 25px 15px;
+    margin: 0 auto;
+    border-radius: 16px;
+    position: relative;
+}
+
+.TopAndLatest-section .anime-card2 h2 {
+    text-align: center;
+    border-bottom: 1px solid #36363685;
+    padding-bottom: 20px;
+    color: #f8f8f8;
+}
+
+.TopAndLatest-section .anime-card2 .anime-card-cont {
+    display: flex;
+    border-bottom: .1px solid #36363685;
+    padding: 20px 10px 20px 10px;
+    height: fit-content;
+    border-radius: 8px;
+    width: auto;
+    transition: .4s;
+
+}
+
+.TopAndLatest-section .anime-card2 .anime-card-cont:hover {
+    background: #73c0ec23;
+}
+
+
+.TopAndLatest-section .anime-card2 .anime-img-cont {
+    height: auto;
+    width: auto;
+}
+
+.TopAndLatest-section .anime-card2 .anime-title {
+    text-align: left;
+}
+
+.TopAndLatest-section .anime-card2 .anime-type {
+    transform: translateX(70px);
+    gap: 10px;
+}
+
+.TopAndLatest-section .anime-card2 .anime-type span:nth-child(1),
+.TopAndLatest-section .anime-card2 .anime-type span:nth-child(2) {
+    background: none;
+}
+
+.TopAndLatest-section .anime-card2 a img {
+    width: 60px;
+    height: 100px;
+}
+
+.TopAndLatest-section .anime-card2 a p {
+    font-size: 12px;
+    transform: translateX(10px);
+}
+
+.TopAndLatest-section .anime-card2 .anime-count {
+    color: #0a0a0a;
+    position: absolute;
+    left: 10px;
+    background: #51b1e9;
+    margin-top: 10px;
+    padding: 1px 5px;
+    font-size: 10px;
+    border-radius: 50%;
+}
+
+@media (max-width:1440px) {
+    .TopAndLatest-section .TopAndLatest-cont {
+        width: 100%;
+    }
+}
+
+@media (max-width:1200px) {
+    .TopAndLatest-section .TopAndLatest-cont {
+        width: 80%;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width:786px) {
+
+    .TopAndLatest-section .TopAndLatest-cont {
+        width: 100%;
+    }
+
+    .TopAndLatest-section .anime-card2 .anime-card-cont {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:600px) {
+    .TopAndLatest-section {
+        padding: 100px 15px 30px;
+    }
+
+    .TopAndLatest-section .TopAndLatest-cont {
+        grid-template-columns: 1fr;
+    }
+
+    .TopAndLatest-section .anime-card2 {
+        width: -webkit-fill-available;
+    }
+
+    .TopAndLatest-section .anime-card2 .anime-card-cont {
+        width: 100%;
+    }
+}

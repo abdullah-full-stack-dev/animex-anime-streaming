@@ -1,0 +1,87 @@
+.SearchPage-section {
+    padding: 200px 30px 30px;
+}
+
+.addHeight {
+    height: 100vh;
+}
+
+.SearchPage-cont .search-img-cont {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.SearchPage-cont .search-img-cont img {
+    width: 100%;
+}
+
+.SearchPage-cont h2,
+.SearchPage-cont p {
+    color: #f8f8f8;
+    text-align: center;
+}
+
+.search-input-cont {
+    width: 80%;
+    margin: 30px auto;
+}
+
+
+.search-input-cont form {
+    display: flex;
+    width: 100%;
+}
+
+.search-input-cont form input {
+    padding: 15px 12px;
+    width: 100%;
+    border: 1px solid #51b1e9;
+    background: transparent;
+    color: #f8f8f8;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.search-input-cont form button {
+    padding: 15px 18px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background: #51b1e9;
+    border: 1px solid #51b1e9;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.search-input-cont form button:hover {
+    background: #51b1e9c2;
+}
+
+@media (max-width:786px) {
+    .search-input-cont {
+        width: 100%;
+    }
+
+    .search-input-cont form input {
+        padding: 8px 12px;
+    }
+
+    .search-input-cont form button {
+        padding: 10px 18px;
+    }
+}
+
+@media (max-width:500px) {
+
+    .SearchPage-section {
+        padding: 150px 15px 30px;
+    }
+
+    .SearchPage-cont h2 {
+        font-size: 19px;
+    }
+
+    .SearchPage-cont p {
+        font-size: 12px;
+        margin-top: 2px;
+    }
+}

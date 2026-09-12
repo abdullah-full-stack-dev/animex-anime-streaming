@@ -1,0 +1,111 @@
+.FeaturedAnime-section {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 50px auto;
+}
+
+.FeaturedAnime-cont {
+    position: relative;
+    overflow: hidden;
+    height: 50vh;
+    width: 100%;
+    margin: 0 auto;
+    background: linear-gradient(to left, #0A0A0A, #0000009c, #0A0A0A);
+}
+
+.FeaturedAnime-video-cont {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1000;
+}
+
+.FeaturedAnime-video-cont video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.FeaturedAnime-content {
+    position: absolute;
+    text-align: center;
+    padding: 0 40px;
+    bottom: 80px;
+    color: #f8f8f8;
+}
+
+.FeaturedAnime-content p {
+    margin: 10px 0;
+    color: #f8f8f8c4;
+    font-size: 13px;
+}
+
+.FeaturedAnime-content button {
+    padding: 8px 8px;
+    border: 1px solid #51b1e9;
+    background: #51b1e9;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.FeaturedAnime-content button:hover {
+    background: #51b1e9c2;
+}
+
+.FeaturedAnime-content button svg {
+    transform: translateY(2px);
+}
+
+@media (max-width:1440px) {
+    .FeaturedAnime-section {
+        width: 100%;
+    }
+
+    .FeaturedAnime-cont{
+        height: 55vh;
+    }
+}
+
+@media (max-width:1200px) {
+    .FeaturedAnime-section {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .FeaturedAnime-video-cont video {
+        border-radius: 0;
+    }
+    
+}
+
+@media (max-width:786px) {
+
+    .FeaturedAnime-section {
+        width: 100%;
+        grid-template-columns: 1fr;
+        padding: 0 15px;
+    }
+
+    .FeaturedAnime-cont {
+        width: 100%;
+        background: linear-gradient(#0a0a0a, #00000085, #0a0a0a75);
+    }
+
+    .FeaturedAnime-content {
+        bottom: 25px;
+    }
+
+    .FeaturedAnime-desc {
+        display: none;
+    }
+
+    .FeaturedAnime-content button {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,86 @@
+.NewsLetter-cont {
+    padding: 80px 30px 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.NewsLetter-box {
+    width: 600px;
+    padding: 20px;
+    background: #161616;
+    border-radius: 14px;
+
+}
+
+.NewsLetter-box form {
+    display: flex;
+    align-items: center;
+}
+
+.NewsLetter-box .NewsLetter-input-cont {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #0a0a0a;
+    border-radius: 8px;
+    padding: 0 0 0 10px;
+}
+
+.NewsLetter-box form input {
+    width: 100%;
+    padding: 14px 15px;
+    background-color: #0a0a0a;
+    border: none;
+    color: #f8f8f8;
+}
+
+.NewsLetter-box form .mail-icon {
+    color: #f8f8f8;
+    font-size: 21px;
+    margin: 0 auto;
+}
+
+.NewsLetter-box form button {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 14px 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #51b1e9;
+    color: #0a0a0a;
+    transition: .4s;
+}
+
+.NewsLetter-box form button:hover {
+    background-color: #51b1e9ce;
+}
+
+.NewsLetter-box h2 {
+    color: #f8f8f8;
+    text-align: center;
+}
+
+.NewsLetter-box p {
+    color: #f8f8f8;
+    font-size: 14px;
+    text-align: center;
+    margin: 8px 0;
+}
+
+@media (max-width:500px) {
+    .NewsLetter-cont {
+        padding: 80px 15px 30px;
+    }
+
+    .NewsLetter-box p {
+        font-size: 12px;
+    }
+
+    .NewsLetter-box form input,
+    .NewsLetter-box form button {
+        padding: 12px 10px;
+        font-size: 12px;
+    }
+}

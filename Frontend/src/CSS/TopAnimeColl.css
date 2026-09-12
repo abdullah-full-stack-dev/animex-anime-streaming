@@ -1,0 +1,30 @@
+.TopAnimeColl-section {
+    padding: 200px 30px 30px;
+}
+
+.TopAnimeColl-section h2,
+.TopAnimeColl-section p {
+    text-align: center;
+    color: #f8f8f8;
+}
+
+.TopAnimeColl-section button {
+    padding: 8px;
+    border: 1px solid #51b1e9;
+    background: #51b1e9;
+    cursor: pointer;
+    transition: .4s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.TopAnimeColl-section button:hover {
+    background: #51b1e9c2;
+}
+
+@media (max-width:600px) {
+    .TopAnimeColl-section {
+        padding: 170px 10px 30px;
+    }
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    scrollbar-width: auto;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Exo 2", sans-serif;
+}
+
+::-webkit-scrollbar {
+    height: .1rem;
+    width: .4rem;
+}
+
+::-webkit-scrollbar-track {
+    background: #0A0A0A;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #51b1e9b0;
+    border-radius: 1px;
+}
+
+::-moz-selection {
+    background-color: #51b1e97c;
+    color: #0A0A0A;
+}
+
+::selection {
+    background-color: #51b1e97c;
+    color: #0A0A0A;
+}
+
+body {
+    background: #0A0A0A;
+}
+
+
+.animated-text {
+    color: #51b1e9;
+    -webkit-text-stroke: 1px #000;
+}
+
+.navbar-cont nav ul li a.active,
+.meu-cont a.active {
+    color: #51b1e9;
+}
+
+.loading {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f8f8f8;
+}
+
+
+@media (max-width:1366px) {
+    .hero-cont video {
+        object-position: 20% center;
+    }
+}
+
+@media (max-width:900px) {
+    .hero-cont video {
+        object-position: 25% center;
+    }
+
+}

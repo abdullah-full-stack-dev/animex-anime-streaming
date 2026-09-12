@@ -1,0 +1,141 @@
+.hero-section {
+    padding: 150px 30px 30px;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(#000000d5, #00000098, #0a0a0aab, #000000);
+}
+
+
+.hero-section video {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1000;
+    object-position: 25% center;
+}
+
+
+.hero-cont {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%);
+    /* display: flex;
+    justify-content: center; */
+    /* padding-top: 300px; */
+    text-align: center;
+}
+
+.hero-content {
+    padding: 20px 30px;
+    color: #f8f8f8;
+}
+
+
+.hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.hero-content p {
+    margin: 10px 0;
+}
+
+.hero-content b {
+    letter-spacing: .1px;
+    font-weight: 400;
+}
+
+.hero-content .hero-btn {
+    padding: 15px 20px;
+    border: 1px solid #51b1e9;
+    margin: 10px 0;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.hero-content .hero-btn.play {
+    background: #51b1e9;
+    margin-right: 20px;
+    transition: .4s;
+}
+
+.hero-content .hero-btn.play:hover {
+    background: transparent;
+    color: #f8f8f8;
+}
+
+.hero-content .hero-btn.play:hover svg {
+    color: #f8f8f8;
+}
+
+.hero-content .hero-btn.explore {
+    background: transparent;
+    color: #f8f8f8;
+    transition: .4s;
+}
+
+.hero-content .hero-btn.explore:hover {
+    background: #51b1e9;
+    color: #0A0A0A;
+}
+
+.hero-content .hero-highlights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.hero-content .hero-highlights svg {
+    font-size: 18px;
+}
+
+
+@media (max-width:786px) {
+
+    .hero-section {
+        background: linear-gradient(#000000d5, #00000098, #0a0a0aab, #00000085);
+    }
+
+    .hero-cont {
+        padding-right: 0;
+        padding-top: 220px;
+        position: static;
+        transform: translate(0);
+    }
+
+    .hero-content {
+        padding: 20px 0;
+        width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 26px;
+    }
+
+    .hero-content p,
+    b {
+        font-size: 12px;
+    }
+
+    .hero-content .hero-btn {
+        padding: 12px 10px;
+    }
+
+    .hero-content .hero-highlights svg {
+        font-size: 15px;
+    }
+
+    .hero-content .hero-highlights {
+        font-size: 11px;
+    }
+}

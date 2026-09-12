@@ -1,0 +1,42 @@
+.Policy-section {
+    padding: 150px 30px 30px;
+}
+
+.Policy-cont {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.Policy-cont p,
+.Policy-cont b,
+.Policy-cont h2 {
+    color: #f8f8f8;
+}
+
+.Policy-cont h2 {
+    margin-bottom: 10px;
+}
+
+.Policy-cont p {
+    margin: 8px 0;
+}
+
+.Policy-cont .tagLine {
+    text-align: center;
+    margin-top: 30px;
+    color: #f8f8f885;
+}
+
+@media (max-width:786px) {
+    .Policy-section {
+        padding: 150px 15px 30px;
+    }
+
+    .Policy-cont {
+        width: 100%;
+    }
+
+    .Policy-cont p {
+        font-size: 13px;
+    }
+}

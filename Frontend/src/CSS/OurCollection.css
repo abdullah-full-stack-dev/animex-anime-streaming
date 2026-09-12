@@ -1,0 +1,33 @@
+.OurCollection-section {
+    padding: 150px 30px 30px;
+}
+
+.OurCollection-section h2,
+.OurCollection-section p {
+    text-align: center;
+    color: #f8f8f8;
+}
+
+.OurCollection-section .pagination {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 20px;
+}
+
+.OurCollection-section .pagination button {
+    padding: 8px 13px;
+    border-radius: 4px;
+    background: #51b1e9;
+    border: 1px solid #51b1e9;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.OurCollection-section .pagination button:hover {
+    background: #51b1e9ce;
+}
+
+.OurCollection-section .pagination .pageNo {
+    color: #f8f8f8;
+    margin: 0 10px;
+}

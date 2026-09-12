@@ -1,0 +1,120 @@
+.Accounts-cont-overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #000000a2;
+    z-index: 99999;
+}
+
+.Accounts-cont {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999999;
+    padding: 20px;
+    background-color: #000000a2;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+}
+
+.Accounts-cont .login-img,
+.Accounts-cont .Signup-img {
+    display: flex;
+    justify-content: center;
+}
+
+.Accounts-cont img {
+    width: 100px;
+}
+
+.Accounts-cont h1 {
+    margin-bottom: 3px;
+    text-align: center;
+    color: #f8f8f8;
+    font-size: 25px;
+}
+
+.Accounts-cont p {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #f8f8f8;
+}
+
+.Accounts-cont .input-cont {
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    background-color: #0A0A0A;
+    border: 1px solid #414141a2;
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+.Accounts-cont .input-cont input {
+    background-color: #0A0A0A;
+    border: none;
+    color: #f8f8f8;
+    padding: 12px 10px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.Accounts-cont .input-cont svg {
+    color: #f8f8f8;
+}
+
+.Accounts-cont .remember-forgot-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Accounts-cont .remember-me {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: #f8f8f8;
+    font-size: 13px;
+}
+
+.Accounts-cont .forgot-pass {
+    font-size: 13px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.Accounts-cont .forgot-pass:hover {
+    color: #51b1e9;
+}
+
+.Accounts-cont button {
+    width: 100%;
+    padding: 8px;
+    background-color: #51b1e9;
+    border: 1px solid #51b1e9;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.Accounts-cont button:hover {
+    background: transparent;
+    color: #f8f8f8;
+}
+
+@media (max-width:786px) {
+    .Accounts-cont {
+        width: 60%;
+    }
+}
+
+@media (max-width:600px) {
+    .Accounts-cont {
+        width: 90%;
+    }
+
+    .Accounts-cont h1 {
+        font-size: 22px;
+    }
+}

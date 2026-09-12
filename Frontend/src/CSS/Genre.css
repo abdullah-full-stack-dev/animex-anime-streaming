@@ -1,0 +1,14 @@
+.genre-section {
+    padding: 200px 30px 30px;
+}
+
+.genre-section h2 {
+    text-align: center;
+    color: #f8f8f8;
+}
+
+@media (max-width:500px) {
+    .genre-section {
+        padding: 170px 10px 30px;
+    }
+}

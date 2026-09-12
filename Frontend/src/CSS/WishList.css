@@ -1,0 +1,108 @@
+.wishlist-section {
+    padding: 150px 30px 30px;
+    /* width: 80%; */
+    margin: 0 auto;
+}
+
+.wishlist-section h2{
+    color: #f8f8f8;
+}
+
+.empty-wishlist-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.empty-wishlist-cont .empty-wishlist {
+    margin-top: 200px;
+}
+
+
+
+.empty-wishlist-cont .empty-wishlist p {
+    margin: 10px 0;
+    color: #f8f8f8;
+}
+
+.empty-wishlist-cont .empty-wishlist button {
+    padding: 10px 17px;
+    background: #51b1e9;
+    color: #0a0a0a;
+    outline: none;
+    border: none;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.empty-wishlist-cont .empty-wishlist button:hover {
+    background: #51b1e9ec;
+}
+
+/* .addHeight {
+    height: 100vh;
+} */
+
+.wishlist-section .wishlist-title {
+    text-align: center;
+}
+
+.wishlist-section .anime-card{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+.wishlist-section .anime-card-cont .anime-type {
+    display: none;
+}
+
+
+.wishlist-section .wishlist-card-wrapper{
+    position: relative;
+    width: 220px;
+    margin: 0 auto;
+}
+
+
+
+.wishlist-section .remove-wishlist {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #0a0a0a;
+    background-color: #51b1e9;
+    padding: 3px 7px;
+    border-top-right-radius: 8px;
+    cursor: pointer;
+}
+
+@media (max-width:1440px){
+    .wishlist-section .anime-card{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        
+    }
+}
+
+@media (max-width:1024px){
+    .wishlist-section .anime-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+}
+
+@media (max-width:520px){
+    .wishlist-section .anime-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+    .wishlist-section .wishlist-card-wrapper{
+        width: auto;
+    }
+}
